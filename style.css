@@ -1,0 +1,76 @@
+/* General */ 
+/* General styling */ 
+body {
+    font-family: sans-serif;
+    background: #FAFAFA;
+    color: #333333;
+}
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #ffc107
+}
+
+/* nav bar */ 
+
+nav {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+
+nav a {
+    font-size: large;
+    font-weight: 700;
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+
+/* about */ 
+
+#about {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 32px;
+}
+
+#left-side {
+    max-width: 60%;
+}
+
+#name {
+    font-size: 50px;
+}
+
+.hero-image {
+    max-width: 40%;
+    border-radius: 50%;
+    padding-top: 20px;
+    box-shadow: 3.6px 7.2px 7.2px hsl(0deg 0% 0% / 0.39)
+}
+
+/* footer */ 
+
+footer {
+    position: fixed;
+    width: 100%;
+    padding: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: #4CAF50;
+    color: #FAFAFA;
+    text-align: center;
+}
