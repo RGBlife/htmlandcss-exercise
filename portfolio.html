@@ -38,31 +38,45 @@
     <section id="projects">
         <h1>Projects ---</h1>
         <div class="project-cards">
-            <div class="card">
-                <img src="./icon-image-not-found-free-vector.jpg" alt="project" style="width: 100%;">
-                <p>In eu tincidunt lacus, eu interdum dui. Suspendisse vitae leo eu metus placerat placerat. Quisque
-                    pulvinar velit sit amet justo finibus bibendum. Aenean at aliquet nulla,</p>
-            </div>
-            <div class="card">
-                <img src="./icon-image-not-found-free-vector.jpg" alt="project" style="width: 100%;">
-                <p>In eu tincidunt lacus, eu interdum dui. Suspendisse vitae leo eu metus placerat placerat. Quisque
-                    pulvinar velit sit amet justo finibus bibendum. Aenean at aliquet nulla,</p>
-            </div>
-            <div class="card">
-                <img src="./icon-image-not-found-free-vector.jpg" alt="project" style="width: 100%;">
-                <p>In eu tincidunt lacus, eu interdum dui. Suspendisse vitae leo eu metus placerat placerat. Quisque
-                    pulvinar velit sit amet justo finibus bibendum. Aenean at aliquet nulla,</p>
-            </div>
-            <div class="card">
-                <img src="./icon-image-not-found-free-vector.jpg" alt="project" style="width: 100%;">
-                <p>In eu tincidunt lacus, eu interdum dui. Suspendisse vitae leo eu metus placerat placerat. Quisque
-                    pulvinar velit sit amet justo finibus bibendum. Aenean at aliquet nulla,</p>
-            </div>
-            <div class="card">
-                <img src="./icon-image-not-found-free-vector.jpg" alt="project" style="width: 100%;">
-                <p>In eu tincidunt lacus, eu interdum dui. Suspendisse vitae leo eu metus placerat placerat. Quisque
-                    pulvinar velit sit amet justo finibus bibendum. Aenean at aliquet nulla,</p>
-            </div>
+            <a ahref="" class="card-link">
+                <div class="card">
+                    <img src="./icon-image-not-found-free-vector.jpg" alt="project" style="width: 100%;">
+                    <p>In eu tincidunt lacus, eu interdum dui. Suspendisse vitae leo eu metus placerat placerat. Quisque
+                        pulvinar velit sit amet justo finibus bibendum. Aenean at aliquet nulla,</p>
+                </div>
+            </a>
+            <a ahref="" class="card-link">
+
+                <div class="card">
+                    <img src="./icon-image-not-found-free-vector.jpg" alt="project" style="width: 100%;">
+                    <p>In eu tincidunt lacus, eu interdum dui. Suspendisse vitae leo eu metus placerat placerat. Quisque
+                        pulvinar velit sit amet justo finibus bibendum. Aenean at aliquet nulla,</p>
+                </div>
+            </a>
+            <a ahref="" class="card-link">
+
+                <div class="card">
+                    <img src="./icon-image-not-found-free-vector.jpg" alt="project" style="width: 100%;">
+                    <p>In eu tincidunt lacus, eu interdum dui. Suspendisse vitae leo eu metus placerat placerat. Quisque
+                        pulvinar velit sit amet justo finibus bibendum. Aenean at aliquet nulla,</p>
+                </div>
+            </a>
+            <a ahref="" class="card-link">
+                <div class="card">
+                    <img src="./icon-image-not-found-free-vector.jpg" alt="project" style="width: 100%;">
+                    <p>In eu tincidunt lacus, eu interdum dui. Suspendisse vitae leo eu metus placerat placerat. Quisque
+                        pulvinar velit sit amet justo finibus bibendum. Aenean at aliquet nulla,</p>
+                </div>
+
+            </a>
+            <a ahref="" class="card-link">
+                <div class="card">
+                    <img src="./icon-image-not-found-free-vector.jpg" alt="project" style="width: 100%;">
+                    <p>In eu tincidunt lacus, eu interdum dui. Suspendisse vitae leo eu metus placerat placerat. Quisque
+                        pulvinar velit sit amet justo finibus bibendum. Aenean at aliquet nulla,</p>
+                </div>
+
+            </a>
 
         </div>
         <section id="cv">
@@ -88,16 +102,31 @@
                 ligula sit amet condimentum. Vivamus faucibus pulvinar risus. Cras fringilla, lectus nec facilisis
                 bibendum, lorem quam auctor nisi, ac rutrum lacus nibh at dui.
             </p>
-            <!-- <link href="">Download my Resume Here</link> -->
-            <a target="_blank" class="cv-btn" href="">Download my Resume Here</a>
+            <div class="cv-btn">
+                <a target="_blank" class="cv-link" href="">Download Resume</a>
+            </div>
         </section>
-        <form id="contact-me">
+        <section id="contact-me">
             <h1>Contact Me ---</h1>
-            <p>Fill the form below to contact me</p>
-            <form action="" method="get">content</form>
-            <button>submit</button>
-            <button>reset</button>
-        </form>
+            <p>Fill the section below to contact me</p>
+            <div id="fcontainer">
+                <form action="" method="get">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+
+                    <label for="fname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+                    <label for="subject">Subject</label>
+                    <textarea type="text" id="subject" name="subject" placeholder="Write your message here..."
+                        style="height:200px"></textarea>
+                    <div>
+
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </section>
         <footer>
             © 2023 Bret Gomes
         </footer>
